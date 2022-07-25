@@ -1,0 +1,69 @@
+.team-matches-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+.rcb-background {
+  background-image: linear-gradient(to bottom, #1e293b, #a4261d);
+  background-size: cover;
+}
+.kkr-background {
+  background-color: #5755a7;
+  background-size: cover;
+}
+.kxp-background {
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+  background-size: cover;
+}
+.csk-background {
+  background-image: linear-gradient(to bottom, #f7db00, #13418b);
+  background-size: cover;
+}
+.rr-background {
+  background-image: linear-gradient(to bottom, #da237b, #13418b);
+  background-size: cover;
+}
+.mi-background {
+  background-color: #13418b;
+  background-size: cover;
+}
+.sh-background {
+  background-color: #f26d22;
+  background-size: cover;
+}
+.dc-background {
+  background-image: linear-gradient(to bottom, #4f5db0, #d91c1f);
+  background-size: cover;
+}
+.team-banner-image {
+  width: 100%;
+  height: 300px;
+}
+.latest-matches-text {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+.latest-matches-banner {
+  background-color: #0f172a;
+  width: 100%;
+  border: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+.match-card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px;
+  list-style-type: none;
+  margin-left: 0px;
+}

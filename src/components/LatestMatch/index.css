@@ -1,0 +1,57 @@
+.display-small {
+  display: none;
+}
+.latest-match-first-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.competing-team-text {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 23px;
+  font-weight: bold;
+}
+.compete-date {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-size: bold;
+}
+.venue-result-text {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 17px;
+}
+.competing-team-logo {
+  height: 250px;
+  width: 200px;
+}
+.latest-match-last-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.innings-text {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 17px;
+}
+.man-of-the-match-umpires-text {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+}
+.right-value-text {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+
+@media screen and (max-width: 575px) {
+  .competing-team-logo {
+    height: 120px;
+    width: 100px;
+  }
+}

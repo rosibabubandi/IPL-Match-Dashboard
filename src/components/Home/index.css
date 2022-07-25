@@ -1,0 +1,64 @@
+.main-home-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.team-match-container {
+  list-style-type: none;
+  margin-left: -20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.dash-board-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.ipl-logo-size {
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+}
+.ipl-dash-board-text {
+  font-size: 50px;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+@media screen and (max-width: 575px) {
+  .main-home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+  .dash-board-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+  .ipl-logo-size {
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+  }
+  .ipl-dash-board-text {
+    font-size: 35px;
+    font-family: 'Bree Serif';
+    color: #ffffff;
+  }
+}
